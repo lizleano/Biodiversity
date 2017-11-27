@@ -1,0 +1,14 @@
+/*#pie {
+   padding-left: 0px;
+   padding-top: 0px;
+}*/
+
+#gauge {
+	/*padding-top: 50px;*/
+	margin-right: 10px;
+}
+
+#pagetitle {
+	background-color: rgb(31,119,180);
+	color: white;
+}
