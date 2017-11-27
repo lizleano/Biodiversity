@@ -26,10 +26,11 @@ function bubblechart(data, type){
 
   var graphDiv = document.querySelector("#bubble-chart")
 
-  // delete traces of previous plot
-  if (graphDiv.data){    
-    alert(graphDiv.data.length);
-    deleteTrace(graphDiv, [0]);
+  // delete traces of previous plotting
+  if (graphDiv.data){   
+    for (var i=0; i<graphDiv.data.length; i++){
+      deleteTrace(graphDiv, [i]);
+    }
   }
 
   data['sample_values'].forEach(function(element, idx) {
@@ -58,10 +59,11 @@ function bubblechart(data, type){
   var layout = {
     showlegend: false,
     hovermode: "closest", 
-    height: 600,
+    height: 800,
     width: 1500,
     xaxis: {
-        title: '<b>OTU ID</b>',
+      title: '<b>OTU ID</b>',
+      zeroline: true
     },
     yaxis:{
       title: '<b>Sample Values</b>'

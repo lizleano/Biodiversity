@@ -38,7 +38,7 @@ function piechart(data){
 	var layout = {
 	  title: '<b>Top 10 Bacteria Found</b>',
 	  autosize: false,
-	  height: 600,
+	  height: 700,
 	  width: 600
 	};
 
