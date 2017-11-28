@@ -1,5 +1,5 @@
 function drawbubble(sample, type) {
-    counter=10;
+    counter=20;
     d3.json("/samples/".concat(sample,"/",counter), function(err, data) {     
         if (err){
           alert("Error found in fetchdata while reading samples. " + err.message);
