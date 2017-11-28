@@ -9,4 +9,8 @@ numpy==1.13.3
 PyMySQL==0.7.11
 SQLAlchemy==1.1.14
 Werkzeug==0.12.2
-html5lib==0.999
+Pandas==0.20.3
+beautifulsoup4==4.6.0
+bs4==0.0.1
+requests ==2.18.4
+pymongo ==3.5.1
