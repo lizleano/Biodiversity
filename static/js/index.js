@@ -1,4 +1,4 @@
-var base_url = "http://127.0.0.1:5000/"
+var base_url = "https://biodiversity-ldl.herokuapp.com/"
 
 
 function init(){
