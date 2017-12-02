@@ -11,7 +11,7 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///datasets/belly_button_biodiversity.sqlite", echo=False)
+engine = create_engine("sqlite:///DataSets/belly_button_biodiversity.sqlite", echo=False)
 
 # reflect an existing database into a new model
 Base = automap_base()
